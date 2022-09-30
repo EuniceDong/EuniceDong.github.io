@@ -19,7 +19,9 @@
   "homepage": "https://github.com/EuniceDong/EuniceDong.github.io#readme",
   "devDependencies": {
     "eslint": "^8.24.0",
+    "eslint-config-google": "^0.14.0",
     "eslint-plugin-react": "^7.31.8",
+    "http-server": "^14.1.1",
     "prettier": "2.7.1"
   },
   "dependencies": {
