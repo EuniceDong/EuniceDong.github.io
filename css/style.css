@@ -312,16 +312,6 @@ p.foot-para {
   border-color: #1da1f2;
 }
 
-.tem-mobs_tem-mobspvt-web_dribble {
-  background: #ea4c89;
-  border-color: #ea4c89;
-}
-
-.tem-mobs_tem-mobspvt-web_google {
-  background: #f44336;
-  border-color: #f44336;
-}
-
 /* //social-icons */
 
 /* copyright */
@@ -347,7 +337,7 @@ p.foot-para {
 
 /* contact */
 .contact {
-  background: url(../images/bg2.jpg) no-repeat center;
+  /*background: url(../images/bg2.jpg) no-repeat center;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -754,114 +744,7 @@ h3.tem-mobspvt-web-title {
   padding: 10px;
 }
 
-/* popup */
-.popup-effect {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 0ms;
-  visibility: hidden;
-  opacity: 0;
-  z-index: 99;
-}
-
-.popup-effect:target {
-  visibility: visible;
-  opacity: 1;
-}
-
-.popup {
-  background: #fff;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -o-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -moz-border-radius: 4px;
-  max-width: 500px;
-  position: relative;
-  margin: 6em auto;
-  padding: 3em 2em;
-  z-index: 999;
-  text-align: center;
-}
-
-.popup .close {
-  position: absolute;
-  top: 5px;
-  right: 15px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #000;
-}
-
-.popup .close:hover {
-  color: #0abde3;
-}
-
-/* //popup */
 /* //gallery */
-
-/* blog */
-a.blog-title {
-  color: #1d1d1d;
-  font-size: 22px;
-  text-transform: uppercase;
-  display: inline-block;
-  margin: 12px 0 16px;
-  line-height: 1.4;
-}
-
-.blog-body span {
-  color: #b9b9b9;
-  text-transform: uppercase;
-  font-size: 12px;
-  word-spacing: 3px;
-  letter-spacing: 1px;
-  display: block;
-}
-
-/* //blog */
-
-/* testmonials */
-.testimonials {
-  background: url(../images/bg1.jpg) no-repeat bottom;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover;
-  background-size: cover;
-}
-
-.testi_grid {
-  padding: 2em 3em;
-  background: rgba(16, 16, 16, 0.47);
-}
-
-.testi_grid h5 {
-  font-size: 20px;
-  letter-spacing: 1px;
-  color: #fff;
-  font-weight: 800;
-  margin: 3px 0 0 15px;
-}
-
-.testimonials_grid span {
-  color: #fff;
-  font-size: 2em;
-}
-
-p.sub-test {
-  color: #fff;
-  font-style: italic;
-  margin-bottom: 20px;
-}
-
-/* //testmonials */
 
 /* responsive */
 @media (max-width: 1680px) {
