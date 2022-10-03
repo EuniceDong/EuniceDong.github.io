@@ -337,7 +337,6 @@ p.foot-para {
 
 /* contact */
 .contact {
-  /*background: url(../images/bg2.jpg) no-repeat center;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -592,29 +591,6 @@ h4.about-tit {
 }
 
 /* //about bottom */
-
-/* stats */
-.stats {
-  background: url(../images/bg5.jpg) no-repeat center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover;
-}
-
-p.counter {
-  color: #fff;
-  font-size: 3.5em;
-  font-weight: 700;
-}
-
-p.para-text-tem-mobsls {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-/* //stats */
 
 /* resume */
 /* tabs */
@@ -1103,10 +1079,6 @@ h3.tem-mobspvt-web-title {
 
   h3.tittle {
     font-size: 32px;
-  }
-
-  a.blog-title {
-    font-size: 21px;
   }
 
   p.foot-para {
